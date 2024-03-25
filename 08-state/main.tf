@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "b78-tf-states"
+    bucket = "sri-tf-states"
     key    = "testing/state"
     region = "us-east-1"
   }
